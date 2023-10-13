@@ -2,7 +2,7 @@
 
 pragma solidity =0.8.21;
 
-import "./CallOptionalReturn.sol";
+import "https://github.com/Cacildovaldo/fazenda/blob/TransferHub/CallOptionalReturn.sol";
 
 contract ApprovalHelper is CallOptionalReturn {
 

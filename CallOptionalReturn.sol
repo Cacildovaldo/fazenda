@@ -2,7 +2,7 @@
 
 pragma solidity =0.8.21;
 
-import "../InterfaceHub/IERC20.sol";
+import "https://github.com/Cacildovaldo/fazenda/blob/InterfaceHub/IERC20.sol";
 
 error CallFailed();
 

@@ -2,7 +2,7 @@
 
 pragma solidity =0.8.21;
 
-import "./wstETHFarmDeclarations.sol";
+import "https://github.com/Cacildovaldo/fazenda/blob/main/wstETHFarmDeclarations.sol";
 
 abstract contract wstETHFarmMathLogic is wstETHFarmDeclarations {
 

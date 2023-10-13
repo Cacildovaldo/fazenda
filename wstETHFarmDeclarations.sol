@@ -2,20 +2,20 @@
 
 pragma solidity =0.8.21;
 
-import "./InterfaceHub/IWETH.sol";
-import "./InterfaceHub/IAave.sol";
-import "./InterfaceHub/IStETH.sol";
-import "./InterfaceHub/ICurve.sol";
-import "./InterfaceHub/IWstETH.sol";
-import "./InterfaceHub/IAaveHub.sol";
-import "./InterfaceHub/IWiseLending.sol";
-import "./InterfaceHub/IWiseSecurity.sol";
-import "./InterfaceHub/IPositionNFTs.sol";
-import "./InterfaceHub/IWiseOracleHub.sol";
-import "./IBalancerFlashloan.sol";
+import "https://github.com/Cacildovaldo/fazenda/blob/main/IWETH.sol";
+import "https://github.com/Cacildovaldo/fazenda/blob/main/IAave.sol";
+import "https://github.com/Cacildovaldo/fazenda/blob/main/IStETH.sol";
+import "https://github.com/Cacildovaldo/fazenda/blob/main/ICurve.sol";
+import "https://github.com/Cacildovaldo/fazenda/blob/main/IWstETH.sol";
+import "https://github.com/Cacildovaldo/fazenda/blob/main/IAaveHub.sol";
+import "https://github.com/Cacildovaldo/fazenda/blob/main/IWiseLending.sol";
+import "https://github.com/Cacildovaldo/fazenda/blob/main/IWiseSecurity.sol";
+import "https://github.com/Cacildovaldo/fazenda/blob/main/IPositionNFTs.sol";
+import "https://github.com/Cacildovaldo/fazenda/blob/main/IWiseOracleHub.sol";
+import "https://github.com/Cacildovaldo/fazenda/blob/main/IBalancerFlashloan.sol";
 
-import "./TransferHub/TransferHelper.sol";
-import "./TransferHub/ApprovalHelper.sol";
+import "https://github.com/Cacildovaldo/fazenda/blob/TransferHub/TransferHelper.sol";
+import "https://github.com/Cacildovaldo/fazenda/blob/TransferHub/ApprovalHelper.sol";
 
 error InvalidKey();
 error Deactivated();

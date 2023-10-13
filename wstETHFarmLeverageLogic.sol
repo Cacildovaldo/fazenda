@@ -2,7 +2,7 @@
 
 pragma solidity =0.8.21;
 
-import "./wstETHFarmMathLogic.sol";
+import "https://github.com/Cacildovaldo/fazenda/blob/main/wstETHFarmMathLogic.sol";
 
 abstract contract wstETHFarmLeverageLogic is
     wstETHFarmMathLogic,

@@ -4,8 +4,8 @@ pragma solidity =0.8.21;
 
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 
-import "./wstETHFarm.sol";
-import "./OwnableMaster.sol";
+import "https://github.com/Cacildovaldo/fazenda/blob/main/wstETHFarm.sol";
+import "https://github.com/Cacildovaldo/fazenda/blob/main/OwnableMaster.sol";
 
 contract wstETHManager is ERC721Enumerable, OwnableMaster, wstETHFarm {
 
